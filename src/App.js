@@ -21,7 +21,7 @@ export default function App() {
         todoItems={todoItems}
         setTodoList={setTodoList} />
 
-      <Row className="todo-list-container">
+      { todoItems.length ? <Row className="todo-list-container">
         <Col>
           <h4>To-dos</h4>
           { todoItems.length ? todoItems
@@ -34,7 +34,7 @@ export default function App() {
             .filter(data => data.completed === true)
             .map((todo, key) => <TodoItem todos={todoItems} setTodoList={setTodoList} todo={todo} key={key} />) : ''}
         </Col>
-      </Row>
+      </Row> : ''}
     </Container>
   );
 }
