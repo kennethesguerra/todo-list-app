@@ -1,0 +1,15 @@
+.todo-item-container {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: #000;
+  text-align: left;
+}
+
+.todo-item-buttons {
+  margin-top: 40px;
+}
+
+.todo-item-buttons button {
+  margin: 5px;
+}

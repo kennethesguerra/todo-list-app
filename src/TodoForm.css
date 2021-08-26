@@ -1,0 +1,16 @@
+.todo-parent-container {
+  margin-top: 40px !important;
+  margin: 0 auto;
+}
+
+.todo-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.todo-text-input {
+  width: 500px !important;
+  padding-right: 5px;
+}
